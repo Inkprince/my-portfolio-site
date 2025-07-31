@@ -562,3 +562,15 @@ footer p {
 .menu-links a.active::after {
   width: 100%;
 }
+
+.text-container p {
+  background: #fff8f0;
+  padding: 1.5rem 2rem;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 16px 0 #ffb80022;
+  line-height: 1.7;
+  max-width: 600px;
+  margin: 0 auto 1.5rem auto;
+  font-size: 1.1rem;
+  color: #333;
+}
