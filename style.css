@@ -314,52 +314,33 @@ section {
   width: 8rem;
   border-radius: 2rem;
   border: 2px solid transparent;
-  background: #1a1a1a;      /* Dark background */
-  color: #fff;              /* White text */
-  background-origin: border-box;
-  background-clip: padding-box, border-box;
-  background-image: none;
-}
-
-.btn-color-1,
-.btn-color-2 {
-  border: #FF6B00 0.15rem solid; /* Orange border for visibility */
-}
-
-.btn-color-1:hover,
-.btn-color-2:hover {
-  background: #FF6B00;   /* Orange background on hover */
-  color: #fff;           /* White text on hover */
-  border: #1a1a1a 0.15rem solid;
+  background: #1a1a1a;
+  color: #fff;
   cursor: pointer;
 }
 
-.btn-color-2,
-.btn-color-1:hover {
-  background: rgb(53, 53, 53);
-  color: white;
+.btn-color-1 {
+  background: #FF6B00;
+  color: #fff;
+  border: #FF6B00 0.15rem solid;
 }
 
 .btn-color-1:hover {
-  background: rgb(0, 0, 0);
+  background: #1a1a1a;
+  color: #fff;
+  border: #FF6B00 0.15rem solid;
 }
 
 .btn-color-2 {
-  background: none;
+  background: #fff;
+  color: #1a1a1a;
+  border: #FF6B00 0.15rem solid;
 }
 
 .btn-color-2:hover {
-  border: rgb(255, 255, 255) 0.1rem solid;
-}
-
-.btn:hover, .btn:focus {
-  background-image: linear-gradient(white, white), linear-gradient(90deg, #FF6B00, #FFB800, #5A189A);
-  border: 2px solid transparent;
-  box-shadow: 0 0 0 2px #FFB80033;
-}
-
-.btn-container {
-  gap: 1rem;
+  background: #FF6B00;
+  color: #fff;
+  border: #1a1a1a 0.15rem solid;
 }
 
 /* ABOUT SECTION */
