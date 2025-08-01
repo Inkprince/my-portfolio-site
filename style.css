@@ -314,43 +314,34 @@ section {
   width: 8rem;
   border-radius: 2rem;
   border: 2px solid transparent;
-  background:
-    linear-gradient(90deg, #FF6B00, #FFB800, #5A189A) border-box,
-    #1a1a1a padding-box;
+  background: #1a1a1a;
   color: #fff;
   cursor: pointer;
-  background-origin: border-box;
-  background-clip: padding-box, border-box;
-  position: relative;
-  z-index: 1;
 }
 
 .btn-color-1 {
-  background:
-    linear-gradient(90deg, #FF6B00, #FFB800, #5A189A) border-box,
-    #1a1a1a padding-box;
+  background: #1a1a1a;
   color: #fff;
+  border: #FF6B00 0.15rem solid;
+
 }
 
 .btn-color-1:hover {
-  background:
-    linear-gradient(90deg, #FF6B00, #FFB800, #5A189A) border-box,
-    #FF6B00 padding-box;
+  background: #FF6B00;
   color: #fff;
+  border: #FF6B00 0.15rem solid;
 }
 
 .btn-color-2 {
-  background:
-    linear-gradient(90deg, #FF6B00, #FFB800, #5A189A) border-box,
-    #fff padding-box;
+  background: #fff;
   color: #1a1a1a;
+  border: #FF6B00 0.15rem solid;
 }
 
 .btn-color-2:hover {
-  background:
-    linear-gradient(90deg, #FF6B00, #FFB800, #5A189A) border-box,
-    #FF6B00 padding-box;
+  background: #FF6B00;
   color: #fff;
+  border: #1a1a1a 0.15rem solid;
 }
 
 /* ABOUT SECTION */
