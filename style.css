@@ -314,18 +314,23 @@ section {
   width: 8rem;
   border-radius: 2rem;
   border: 2px solid transparent;
+  background: #1a1a1a;      /* Dark background */
+  color: #fff;              /* White text */
   background-origin: border-box;
   background-clip: padding-box, border-box;
-  background-image: linear-gradient(white, white), linear-gradient(90deg, #FF6B00, #FFB800, #5A189A);
+  background-image: none;
 }
 
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: #FF6B00 0.15rem solid; /* Orange border for visibility */
 }
 
 .btn-color-1:hover,
 .btn-color-2:hover {
+  background: #FF6B00;   /* Orange background on hover */
+  color: #fff;           /* White text on hover */
+  border: #1a1a1a 0.15rem solid;
   cursor: pointer;
 }
 
