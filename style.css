@@ -320,13 +320,14 @@ section {
 }
 
 .btn-color-1 {
-  background: #FF6B00;
+  background: #1a1a1a;
   color: #fff;
   border: #FF6B00 0.15rem solid;
+
 }
 
 .btn-color-1:hover {
-  background: #1a1a1a;
+  background: #FF6B00;
   color: #fff;
   border: #FF6B00 0.15rem solid;
 }
